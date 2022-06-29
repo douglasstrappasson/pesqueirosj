@@ -17,8 +17,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!--icons flaticon-->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -55,21 +58,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
-                        <a href="menu.html" class="nav-item nav-link">Menu</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="booking.html" class="dropdown-item">Booking</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="service.html" class="nav-item nav-link">Serviços</a>
+                        <a href="about.html" class="nav-item nav-link">Sobre</a>
+                        <a href="menu.html" class="nav-item nav-link">Cardápio</a>
+                        <a href="contact.html" class="nav-item nav-link">Contato</a>
                     </div>
-                    <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
                 </div>
             </nav>
 
@@ -77,9 +71,8 @@
                 <div class="container my-5 py-5">
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="display-3 text-white animated slideInLeft text-uppercase">Venha saborear nossas receitas<br></h1>
-                            <p class="text-white animated slideInLeft mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
+                            <h1 class="display-3 text-white animated slideInLeft text-uppercase">ta nervoso?<br>  vem pescar!<br></h1>
+                            <p class="text-white animated slideInLeft mb-4 pb-2 fs-5">Se o mundo acabar, que acabe em barranco. Assim, eu posso pescar mais um pouquinho.</p>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden">
                             <img class="img-fluid" src="img/prato.png" alt="">
@@ -96,38 +89,38 @@
             <div class="container">
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item rounded pt-3">
+                        <div class="service-item rounded pt-xl-3">
                             <div class="p-4">
-                                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
-                                <h5>Master Chefs</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                            </div>
+                                <i class="fa-solid fa-fish-fins fi-4x text-primary mb-2"></i>
+                                <h5>Pescaria</h5>
+                                <p class="text-justify">Peixes de tamanhos selecionados e alimentação adequada, é mais diversão na sua pescaria.</p>
+                            </div> <!--preciso corrigir o tamanho do card-->
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item rounded pt-3">
+                        <div class="service-item rounded pt-xl-3">
                             <div class="p-4">
-                                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
-                                <h5>Quality Food</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                <i class="fa fi-4x fa-utensils text-primary mb-2"></i>
+                                <h5>Refeição</h5>
+                                <p class="text-justify">Uma diversidade em opções de comida caseira tudo feita na hora venha conferir!</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item rounded pt-3">
+                        <div class="service-item rounded pt-xl-3">
                             <div class="p-4">
-                                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
-                                <h5>Online Order</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                <i class="fa fi-sr-terrace fi-4x text-primary"></i>
+                                <h5>Ambiente</h5>
+                                <p class="text-justify">Atendimento na beira da água, limpeza de peixes e espaço para suas festas.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="service-item rounded pt-3">
+                        <div class="service-item rounded pt-xl-3">
                             <div class="p-4">
-                                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
-                                <h5>24/7 Service</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                <i class="fa fi-4x fa-headset text-primary mb-2"></i>
+                                <h5>Comodidade</h5>
+                                <p class="text-justify">Antecipe seu pedido, faça suas reservas para eventos e tire suas dúvidas através de nossos canais.</p>
                             </div>
                         </div>
                     </div>
@@ -158,8 +151,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
-                        <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Restoran</h1>
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Sobre Nós</h5>
+                        <h1 class="mb-4">Conheça o Pesqueiro São João</h1>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                         <div class="row g-4 mb-4">
@@ -167,22 +160,22 @@
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">
                                     <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
                                     <div class="ps-4">
-                                        <p class="mb-0">Years of</p>
-                                        <h6 class="text-uppercase mb-0">Experience</h6>
+                                        <p class="mb-0">Anos de</p>
+                                        <h6 class="text-uppercase mb-0">Experiência</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">4</h1>
                                     <div class="ps-4">
-                                        <p class="mb-0">Popular</p>
-                                        <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                                        <p class="mb-0">Variedades de</p>
+                                        <h6 class="text-uppercase mb-0">peixes</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="">mural de fotos</a>
                     </div>
                 </div>
             </div>
@@ -194,8 +187,8 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
-                    <h1 class="mb-5">Most Popular Items</h1>
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Cardápio</h5>
+                    <h1 class="mb-5">Confira nossas receitas</h1>
                 </div>
                 <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
                     <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
@@ -204,7 +197,7 @@
                                 <i class="fa fa-coffee fa-2x text-primary"></i>
                                 <div class="ps-3">
                                     <small class="text-body">Popular</small>
-                                    <h6 class="mt-n1 mb-0">Breakfast</h6>
+                                    <h6 class="mt-n1 mb-0">Porções</h6>
                                 </div>
                             </a>
                         </li>
@@ -212,8 +205,8 @@
                             <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
                                 <i class="fa fa-hamburger fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Special</small>
-                                    <h6 class="mt-n1 mb-0">Launch</h6>
+                                    <small class="text-body">Acompanhamentos</small>
+                                    <h6 class="mt-n1 mb-0">Bebidas</h6>
                                 </div>
                             </a>
                         </li>
@@ -221,8 +214,8 @@
                             <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
                                 <i class="fa fa-utensils fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Lovely</small>
-                                    <h6 class="mt-n1 mb-0">Dinner</h6>
+                                    <small class="text-body">Outros</small>
+                                    <h6 class="mt-n1 mb-0">Sobremesas</h6>
                                 </div>
                             </a>
                         </li>
@@ -535,8 +528,115 @@
         <!-- Menu End -->
 
 
-        <!-- Reservation Start -->
-        <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <!-- Fish Start -->
+        <div class="container-xxl pt-5 pb-3">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">peixes</h5>
+                    <h1 class="mb-5">Espécies que criamos</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="fish-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/fish-1.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Tambatinga</h5>
+                            <small>Escama</small>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="fish-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/fish-2.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Tilápia</h5>
+                            <small>Escama</small>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="fish-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/fish-3.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Cachara</h5>
+                            <small>Couro</small>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="fish-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/fish-4.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Pirarucu</h5>
+                            <small>Escama</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fish End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="text-center">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
+                    <h1 class="mb-5">Our Clients Say!!!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Client Name</h5>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Client Name</h5>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Client Name</h5>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Client Name</h5>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+          <!-- Reservation Start -->
+          <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
             <div class="row g-0">
                 <div class="col-md-6">
                     <div class="video">
@@ -613,134 +713,6 @@
             </div>
         </div>
         <!-- Reservation Start -->
-
-
-        <!-- Team Start -->
-        <div class="container-xxl pt-5 pb-3">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Team Members</h5>
-                    <h1 class="mb-5">Our Master Chefs</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-1.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
-
-
-        <!-- Testimonial Start -->
-        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="text-center">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
-                    <h1 class="mb-5">Our Clients Say!!!</h1>
-                </div>
-                <div class="owl-carousel testimonial-carousel">
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
         
 
         <!-- Footer Start -->
@@ -792,7 +764,9 @@
 							
 							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
 							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
-                            Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                            Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a><br><br>
+                            Créditos <a class="border-bottom" href="https://www.flaticon.com/br/icones-gratis/pescador" title="pescador ícones">Pescador ícones criados por Freepik - Flaticon</a>
+
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">

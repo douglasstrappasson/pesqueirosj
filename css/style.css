@@ -17,6 +17,19 @@
     font-weight: 700 !important;
 }
 
+
+.fi-4x {
+    font-size: 4em;
+}
+
+.fi-3x {
+    font-size: 3em;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -209,8 +222,9 @@
 
 /*** Service ***/
 .service-item {
-    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.15);
     transition: .5s;
+    height: 17em;
 }
 
 .service-item:hover {
@@ -350,27 +364,36 @@
 }
 
 
-/*** Team ***/
-.team-item {
+/*** fish ***/
+.fish-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-    height: calc(100% - 38px);
     transition: .5s;
 }
 
-.team-item img {
+.fish-item img {
     transition: .5s;
 }
 
-.team-item:hover img {
+.fish-item:hover img {
     transform: scale(1.1);
 }
 
-.team-item:hover {
-    height: 100%;
+
+.fish-item .btn {
+    border-radius: 38px 38px 0 0;
 }
 
-.team-item .btn {
-    border-radius: 38px 38px 0 0;
+/** md*/
+@media (min-width: 768px) {
+    .fish-item {
+        box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+        height: calc(100% - 50px);
+        transition: .5s;
+    }
+        
+    .fish-item:hover {
+        height: 100%;
+    }
 }
 
 
